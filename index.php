@@ -8,6 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<?php require_once 'process.php';?>
 	<div class="row justify-content-center">
 		<form action="" method="POST">
 	<div class="form-group">
