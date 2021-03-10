@@ -10,7 +10,7 @@
 <body>
 	<?php require_once 'process.php';?>
 	<div class="row justify-content-center">
-		<form action="" method="POST">
+		<form action="process.php" method="POST">
 	<div class="form-group">
 		<label>Name</label>
 		<input type="text" name="name" class="form-control" value="Enter Your name">	
@@ -20,7 +20,7 @@
 		<input type="text" name="location" class="form-control" value="Enter Your location">
 	</div>
 	<div class="form-group">
-		<button class="btn btn-primary" type="submit" name="save">Save</button>
+		<button type="submit" class="btn btn-primary"  name="save">Save</button>
 	</div>
 	 	</form>
 	</div>
