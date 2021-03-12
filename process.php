@@ -5,5 +5,8 @@ if(isset($_POST['save'])){
 $name=$_POST['name'];
 $location=$_POST['location'];
 $mysqli->query("insert into data(name,location) VALUES ('$name','$location')")or die($mysqli->error);
+header('location:index.php');
+
 }
+
 ?>
